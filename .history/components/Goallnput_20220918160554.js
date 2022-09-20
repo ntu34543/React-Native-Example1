@@ -16,7 +16,7 @@ function GoalInput(props) {
   return (
     <Modal visible={props.visible} animationType="slide">
       <View style={styles.inputContainer}>
-          <Image style={styles.image} source={require('../assets/favicon.png')} resizeMode='stretch'/>
+          <Image style={styles.image} source={require('../assets/favicon.png')} resizeMode='/>
         <TextInput
           style={styles.textInput}
           placeholder="Email............"
